@@ -1,6 +1,6 @@
 # FeeCalculator-ASEE
 
-## 🧱 Architecture
+## Architecture
 
 This solution is structured across multiple projects for clear separation of concerns:
 
