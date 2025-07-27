@@ -6,8 +6,8 @@ This solution is structured across multiple projects for clear separation of con
 
 | Project                     | Description |
 |-----------------------------|-------------|
-| `FeeCalculator.Domain`      | Contains core business models (`Transaction`, `FeeRule`, etc.) |
-| `FeeCalculator.Application` | Contains business logic and interfaces (fee calculation services, etc.) |
+| `FeeCalculator.Domain`      | Contains core business models (`Transaction`, `FeeRule`, `Client`, `FeeCalculationResult`) |
+| `FeeCalculator.Services` | Contains business logic and interfaces (fee calculation service and interface) |
 | `FeeCalculator.DataAccess`  | Handles DB context and Entity Framework setup |
 | `FeeCalculator.API`         | ASP.NET Core Web API project exposing RESTful endpoints |
 
